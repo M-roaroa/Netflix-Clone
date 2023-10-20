@@ -1,0 +1,170 @@
+.movies-container0 {
+    width: 100%;
+    position: relative;
+}
+
+
+.svg {
+    width: 100%;
+    height: 100%;
+ }
+
+.content0 {
+    width: 100%;
+}
+
+.top-content {
+    position: relative;
+}
+
+.top__media {
+    display: flex;
+    width: 100%;
+}
+
+
+.제목 {
+    
+    position: absolute;
+    bottom: 240px;
+    left: 40px;
+    padding: 4px;
+    border-radius: 2px;
+    background-color: transparent;
+}
+
+
+.이상한변호사우영우움짤 {
+    width: 100%;
+    border-radius: 1%;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.title-content {
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        padding-left: 40px;
+        position: absolute;
+        
+}
+
+.재생-상세정보{
+    display: flex;
+    position: absolute;
+    bottom: 150px;
+    left: 40px;
+    padding: 4px;
+    border-radius: 2px;
+    background-color: transparent;
+}
+
+.재생-버튼 {
+    position: absolute;
+    bottom: 30%;
+    left: 0px;
+    padding: 3px;
+    border-radius: 3px;
+    border-style: none;
+    background-color: white;
+    display: flex;
+    cursor: pointer;
+}
+
+.재생텍스트 {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 22%;
+    left: 60px;
+    
+}
+
+.재생-삼각형 {
+    position: absolute;
+    width: 30px;
+    
+    bottom: 70%;
+    left: 10px;
+    padding: 3px;
+    border-radius: 3px;
+    border-style: none;
+    background-color: transparent;
+    display: flex;
+}
+
+.상세정보-버튼 {
+    position: absolute;
+    bottom: 30%;
+    left: 130px;
+    padding: 3px;
+    border-radius: 3px;
+    border-style: none;
+    background-color: darkgray;
+    display: flex;
+}
+
+.상세정보텍스트 {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 115%;
+    left: 155px;
+    white-space:nowrap;
+    cursor: pointer;
+}
+
+
+.content-container {
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+}
+.content {
+    width: 100%;
+}
+
+.Thumbnail-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.Thumbnail {
+    margin-top: 15px;
+    margin-right: 9px;
+    border-radius: 2%;
+    cursor: pointer;
+}
+
+.Thumbnail:hover {
+    transform: scale(1.3);
+}
+
+.movies-container {
+    font-size: 18px;
+    font-weight: 430;
+    padding-left: 40px;
+}
+
+@media (max-width: 750px) {
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
+}
